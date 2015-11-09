@@ -1,0 +1,80 @@
+<div style="font-family: Georgia, 'Palatino Linotype', Palatino, 'Book Antiqua', serif; font-size: 108%; line-height: 155%;">
+
+
+<div style="margin-bottom: 25pt;">
+<p>
+<span style="font-family: Verdana, Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 'Trebuchet MS', Helvetica, sans-serif; font-size: 115%;">Questionnaire</span>
+</p>
+</div>
+
+
+<table>
+
+	<tr>
+		<td colspan="2" style="width: 35em;">
+		Please complete this short questionnaire about your linguistic background.
+	    </td>
+	</tr>
+
+	<tr>
+		<td colspan="2" style="width: 35em;">
+		Answer the questions accurately. 
+	</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="width: 35em; padding-bottom: 1em;">
+		Your responses will not affect compensation for completing this HIT.
+		</td>
+	</tr>
+	
+	<tr>
+		<td colspan="2" style="width: 35em;">What is your native language?</td>
+	</tr>
+	<tr>
+		<td>
+			<input name="NatLang" type="radio" value="eng" class="obligatory" id="eng" />
+			<label for="eng">English</label>
+			<input name="NatLang" type="radio" value="noteng" id="noteng"/>
+			<label for="noteng">another language</label>
+	</tr>
+	<tr>
+		<td colspan="2"><label class="error" for="NatLang"></label></td>
+	</tr>
+
+	<tr>
+		<td colspan="2" style="width: 35em;">&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td colspan="2" style="width: 35em; padding-bottom: 0.3em;">Please indicate your native language, if not English,<br> and the approximate age you began speaking English:</td>
+	</tr>
+
+	<tr>
+		<td colspan="2">
+		<textarea name="write_something" rows="6" cols="45"></textarea>
+		</td>
+	</tr>
+
+	<tr>
+		<td colspan="2">&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td colspan="2" style="width: 35em;">Do you have any speech, hearing, or learning disorder(s)?</td>
+	</tr>
+	<tr>
+		<td>
+			<input name="disorder" type="radio" value="disorderno" class="obligatory" id="disorderno"/>
+			<label for="disorderno">no</label>
+			<input name="disorder" type="radio" value="disorderyes" class="obligatory" id="disorderyes" />
+			<label for="disorderyes">yes</label>
+	</tr>
+	<tr>
+		<td colspan="2"><label class="error" for="disorder"></label></td>
+		<input name="testname" type="hidden" value="testval" id="testid" />
+	</tr>
+
+
+</table>
+
+</div>
