@@ -1,7 +1,7 @@
 
 var answerHashTable = {};
-answerHashTable["pt"] = ["P", "T"];
-answerHashTable["tp"] = ["T", "P"];
+answerHashTable["iu"] = ["EE", "OO"];
+answerHashTable["ui"] = ["OO", "EE"];
 
 
 function getRandomSubarray(arrx, sizex) {
@@ -16,7 +16,7 @@ function getRandomSubarray(arrx, sizex) {
 }
 
 
-var stimgrouplist = ['pt', 'tp'];
+var stimgrouplist = ['ui', 'iu'];
 var stimgroup = getRandomSubarray(stimgrouplist, 1)[0];
 
 
