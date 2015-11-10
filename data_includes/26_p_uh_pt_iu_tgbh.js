@@ -135,7 +135,7 @@ var items = [
 ["headphones", "Form", {html: {include: "C_headphones.html"}, saveReactionTime: true} ],
 
 // Instructions
-["soundcheck", "Message", {transfer: "keypress", html: {include: "D_soundcheck.html"} } ],
+["soundcheck", "Message", {transfer: "click", html: {include: "D_soundcheck.html"} } ],
 ["instructions", "Message", {transfer: "keypress", html: {include: "E_instructions.html"} } ],
 ["instructionsSpeed", "Message", {transfer: "keypress", html: {include: "F_instructionsSpeed.html"} } ],
 
